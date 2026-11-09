@@ -13,6 +13,11 @@ The Working Group is provisional until FG-TIDA approves it at its first meeting 
 
 ## Contributing
 
+To submit a use case, use the existing process in the
+[FG-TIDA use-case register](https://github.com/fg-tida-wg0/use-cases) — this
+repository does not take use-case submissions directly. See
+[CONTRIBUTING.md](CONTRIBUTING.md) for the full breakdown of what belongs where.
+
 The charter text is [charter.md](charter.md), the single source of truth.
 Every push to `main` generates the template's `src/doc/index.rst` from it and publishes the web page and PDF.
 Open an issue for questions and proposals, or a pull request for concrete text changes, as described in [CONTRIBUTING.md](CONTRIBUTING.md).

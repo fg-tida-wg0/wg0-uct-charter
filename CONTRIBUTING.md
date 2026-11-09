@@ -8,6 +8,20 @@ You do not need to be a Git or reStructuredText expert to contribute. If in doub
 open an issue and ask — the chairs and editors are usually happy to help a
 contribution into shape.
 
+## What belongs where
+
+This repository holds WG0's **charter** — the scope and governance document. Three
+different things that WG0 oversees have three different contribution paths:
+
+- **Propose a use case** — unchanged, use the existing process in the
+  [FG-TIDA use-case register](https://github.com/fg-tida-wg0/use-cases) (its own
+  GitHub issue template). This repository does not take use-case submissions
+  directly.
+- **Propose a terminology change** — once the glossary repository exists, via
+  pull request there (linked from this README once published).
+- **Propose a change to this charter itself** — via pull request against
+  `charter.md` in *this* repository, as described below.
+
 ## Ways to contribute
 
 - **Pull request** — propose a concrete change to the charter text.
