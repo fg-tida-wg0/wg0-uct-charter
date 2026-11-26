@@ -17,8 +17,21 @@ different things that WG0 oversees have three different contribution paths:
   [FG-TIDA use-case register](https://github.com/fg-tida-wg0/use-cases) (its own
   GitHub issue template). This repository does not take use-case submissions
   directly.
-- **Propose a terminology change** — once the glossary repository exists, via
-  pull request there (linked from this README once published).
+- **Propose a terminology change** — to propose adding/changing a term +/or definition
+  that is not yet in the Terminology Technical Report (TTR),
+  once the TTR repository exists, 
+  make a pull request there (linked from this README once published).
+  Include whether an original definition is being proposed,
+  or reference and existing source of the proposed definition.
+  The TTR allows multiple definitions of the same term,
+  so add a new term/def rather than changing an existing term/def,
+  particularly if one is from another standard.
+  Include where if the term is used in existing FGTIDA work products.
+  To propose an addition to the Glossary Technical Specification (GTS),
+  the term/definition must already exist in the TTR
+  and be used in at least one FG-TIDA work product.
+  Once the GTS repository exists, make a pull request there
+  (linked from this README once published)
 - **Propose a change to this charter itself** — via pull request against
   `charter.md` in *this* repository, as described below.
 
