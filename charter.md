@@ -20,7 +20,7 @@ every other FG-TIDA Working Group relies on.
 |Working group name and acronym|Use Cases, Taxonomy and Terminology (UCT), working title|
 |Basis|The FG-TIDA Terms of Reference|
 |FG-TIDA ToR items covered|ToR Objective 1 (Terminology and Definitions)|
-|Chair(s) / co-chairs|Trisha Chakraborty; Bechtold, Lisa, CH-Vevey|
+|Chair(s) / co-chairs|Trisha Chakraborty; Lisa Bechtold|
 |Editor(s) of the main deliverables|TBD|
 |Reviewer(s) of use cases and main deliverables|TBD|
 |Mailing list|fgtidawg0@lists.itu.int|
@@ -217,9 +217,12 @@ scenarios to work from.
 |Target date|Milestone|
 |-|-|
 |2026-12 (Paris)|Charter presented; use-case register repository stewardship formally transferred to WG0; Working Group seed data covers all chartered Working Groups.|
+|2027-01 (Geneva)|Glossary v0.1 draft published, reconciling terminology proposals contributed to date; first list of terms needing a context-sensitive entry.|
 |2027-01 (Geneva)|Taxonomy labels agreed and published for comment; reviewer and editor roles filled.|
 |2027-Q1 end|First draft of the Taxonomy deliverable.|
 |2027-Q3 end|Taxonomy deliverable finalized.|
+|TBD (3rd FG-TIDA meeting)|Glossary and Context-Sensitive Terminology Report agreed by the Working Group.|
+|TBD (within the FG-TIDA lifetime)|Glossary maintained at the current FG-TIDA vocabulary.|
 
 ## 7. Coordination, Dependencies and Liaisons
 
