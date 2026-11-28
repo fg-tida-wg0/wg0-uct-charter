@@ -230,6 +230,8 @@ scenarios to work from.
 |2027-Q3 end|Taxonomy deliverable finalized.|
 |TBD (3rd FG-TIDA meeting)|TSG and TTR agreed by the Working Group.|
 |TBD (within the FG-TIDA lifetime)|Glossary maintained at the current FG-TIDA vocabulary.|
+|2027-01 (Geneva)|Use-Case Review and Mapping Guidance published, documenting the reviewer workflow already in operation.|
+|No fixed date, by design|Ontology relationships are drafted only as specific technical needs arise, for example a Working Group's registry or specification requiring a relationship stated precisely. Full completeness is explicitly not a WG0 commitment, so no completion date is set.|
 
 ## 7. Coordination, Dependencies and Liaisons
 
