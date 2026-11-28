@@ -54,13 +54,15 @@ Working Groups, each developing its own deliverables on its own timeline.
 
 Three needs cut across all of them and belong to none of them individually.
 
-First, a shared vocabulary. A term defined independently by two Working
-Groups, each unaware of the other's definition, is a defect that only
-surfaces once both deliverables are published, and fixing it then means
-reopening finished text. Not every such case is a mistake to correct,
-though: some terms legitimately carry more than one definition depending on
-context, and the risk then is not collision but silently picking one
-meaning without saying so.
+First, a shared vocabulary. Some terms already carry more than one
+definition in circulation within WG0's own register, found before any
+Working Group has formally adopted either one. Left alone, a term defined
+independently by two Working Groups, each unaware of the other's
+definition, is a defect that only surfaces once both deliverables are
+published, and fixing it then means reopening finished text. Not every
+such case is a mistake to correct, though: some terms legitimately carry
+more than one definition depending on context, and the risk then is not
+collision but silently picking one meaning without saying so.
 
 Second, enough situations in view before the technical work starts. A
 Working Group that scopes itself from whichever situations happen to be
@@ -100,11 +102,15 @@ the ones already on its radar.
 
 * Terminology: The Working Group starts from terminology already developed
   within FG-TIDA and by other relevant bodies, adopts it where it already
-  fits, and extends it only where a gap remains for FG-TIDA's own scope,
-  producing a single, versioned FG-TIDA glossary (Deliverable 1) that
-  resolves collisions explicitly rather than silently picking one
-  definition, and where a term genuinely needs more than one definition,
-  records each one against the context it applies in (Deliverable 2).
+  fits, and extends it only where a gap remains for FG-TIDA's own scope. A
+  new term is proposed into the Terminology Technical Report (TTR,
+  Deliverable 2) first, where multiple candidate definitions may coexist;
+  it is promoted into the versioned FG-TIDA Glossary Technical Specification
+  (TSG, Deliverable 1) only once it is already in use by another FG-TIDA
+  Working Group in its own work product. The TSG resolves collisions explicitly rather than
+  silently picking one definition, and where a term genuinely needs more
+  than one definition, the TTR records each one against the context it
+  applies in.
 * Use cases: The Working Group curates the FG-TIDA use-case register,
   working directly with every other Working Group so each can both
   contribute use cases into it and draw out the ones that belong to it:
@@ -153,15 +159,16 @@ scenarios to work from.
 * Terminology: Adopting terminology already developed by other Focus Groups
   and external bodies where it already covers FG-TIDA's needs and drafting
   new definitions only where a gap remains for concepts specific to
-  FG-TIDA's own scope, published as a single harmonized FG-TIDA glossary.
+  FG-TIDA's own scope, published as a single harmonized FG-TIDA Glossary
+  Technical Specification (TSG).
 * Terminology: Resolving naming collisions between FG-TIDA Working Groups,
   and between FG-TIDA and other Focus Groups, where the same term is used
   differently.
 * Terminology: Where a term carries more than one legitimate definition
-  depending on context, recording every candidate definition considered,
-  the context each applies in, and which one FG-TIDA uses in that context,
-  instead of forcing a single definition where more than one is genuinely
-  needed.
+  depending on context, recording every candidate definition considered in
+  the Terminology Technical Report (TTR), the context each applies in, and
+  which one FG-TIDA uses in that context, instead of forcing a single
+  definition where more than one is genuinely needed.
 * Taxonomy: Sorting every use case and term by actor type, identity layer,
   lifecycle stage, authority, verification method, trust posture, and
   governance role, so use cases can be compared on the same terms instead
@@ -186,7 +193,7 @@ scenarios to work from.
   Working Group yet covers it, marking it openly as not yet actionable
   rather than leaving it untagged.
 * Use cases: Flagging duplication against existing ITU-T study group or
-  other standards body work, per ITU-T Recommendation A.7 clause 7.
+  other standards body work.
 
 ### Out of Scope / Non-Goals
 
@@ -205,8 +212,8 @@ scenarios to work from.
 
 |#|Deliverable|Short description|Input documents|
 |-|-|-|-|
-|1|FG-TIDA Glossary (Technical Specification, versioned)|A harmonized set of terms and definitions for trust, identity and agentic AI, reconciling contributed source material and flagging unresolved collisions between communities.|Terminology proposals contributed within FG-TIDA and from adjacent Focus Groups; terms drawn from other Working Groups' charters and the use-case register|
-|2|Context-Sensitive Terminology Report (Technical Report)|For terms that legitimately carry more than one definition depending on context, records every candidate definition considered, the context each applies in, and which definition FG-TIDA uses in that context.|Candidate definitions surfaced during Deliverable 1's harmonization work and from Working Groups' own use of contested terms|
+|1|FG-TIDA Glossary Technical Specification (TSG, versioned)|A harmonized set of terms and definitions for trust, identity and agentic AI, reconciling contributed source material and flagging unresolved collisions between communities. A term enters the TSG, without a definition if none has consensus yet, once it is already in use by another FG-TIDA Working Group in its own work product.|Terminology proposals promoted from the TTR (Deliverable 2); terms drawn from other Working Groups' charters and the use-case register|
+|2|Terminology Technical Report (TTR)|The intake stage for every proposed term, including terms that legitimately carry more than one definition depending on context. Records every candidate definition considered, the context each applies in, and, where the term is genuinely context-dependent, which definition FG-TIDA uses in that context. Multiple definitions of the same term may coexist here even where the TSG has not yet settled one.|Terminology proposals contributed within FG-TIDA and from adjacent Focus Groups; candidate definitions and from Working Groups' own use of contested terms|
 |3|FG-TIDA Use-Case Register (continuously maintained register)|A curated, themed, Working-Group-tagged register of submitted use cases, with a reviewer workflow and a public dashboard (fg-tida-wg0.github.io/use-cases).|Use-case submissions via the FG-TIDA use-case intake repository|
 |4|Use-Case Review and Mapping Guidance (short process document)|How a submission is triaged, what it means for a use case to be fully mapped and handed to a Working Group as input, and how a Working Group can request use cases be routed to it.|Deliverable 3's existing reviewer workflow|
 |5|Taxonomy for Agentic AI Identity and Trust (Technical Report)|A fixed set of labels for sorting use cases, identity mechanisms, delegation models and lifecycle stages, so any Working Group can compare submissions on the same terms.|The use-case register (Deliverable 3), once populated; terminology from Deliverables 1–2|
@@ -221,8 +228,10 @@ scenarios to work from.
 |2027-01 (Geneva)|Taxonomy labels agreed and published for comment; reviewer and editor roles filled.|
 |2027-Q1 end|First draft of the Taxonomy deliverable.|
 |2027-Q3 end|Taxonomy deliverable finalized.|
-|TBD (3rd FG-TIDA meeting)|Glossary and Context-Sensitive Terminology Report agreed by the Working Group.|
+|TBD (3rd FG-TIDA meeting)|TSG and TTR agreed by the Working Group.|
 |TBD (within the FG-TIDA lifetime)|Glossary maintained at the current FG-TIDA vocabulary.|
+|2027-01 (Geneva)|Use-Case Review and Mapping Guidance published, documenting the reviewer workflow already in operation.|
+|No fixed date, by design|Ontology relationships are drafted only as specific technical needs arise, for example a Working Group's registry or specification requiring a relationship stated precisely. Full completeness is explicitly not a WG0 commitment, so no completion date is set.|
 
 ## 7. Coordination, Dependencies and Liaisons
 
@@ -235,7 +244,7 @@ scenarios to work from.
 ## 8. Terminology
 
 This Working Group's own charter intentionally does not define new terms
-here, Deliverable 1 is the authoritative place for FG-TIDA terminology, and
+here, the TSG (Deliverable 1) is the authoritative place for FG-TIDA terminology, and
 duplicating definitions in this charter would itself recreate the problem
 the Working Group exists to prevent.
 
@@ -254,8 +263,8 @@ material in the dashboard or any derived export.
 ## 11. Success Criteria and Conclusion
 
 The chartered work is ongoing rather than one-shot for Deliverable 3 (the
-register), and complete for Deliverables 1, 2, 5 and 6 (the glossary, the
-context-sensitive terminology report, the taxonomy and the ontology) once
+register), and complete for Deliverables 1, 2, 5 and 6 (the TSG, the
+TTR, the taxonomy and the ontology) once
 each is agreed by the Working Group and in active citation by at least one
 other Working Group's deliverable. The Working Group continues operating
 the use-case register for the lifetime of the Focus Group.
